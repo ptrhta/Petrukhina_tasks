@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task 1.1</title>
+    <link type="text/css" href="./style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section class="wrapper">
+        <nav class="navbar">
+            <a class="navbar__icon icon" href="#">
+                <img class="icon__img" src="assets/icon-logo.svg" />
+            </a>
+            <a class="navbar__link" href="#">
+                <img class="navbar__link-img" src="assets/food-icon.svg"/> 
+                <p>Tastemakers</p>
+            </a>
+            <a class="navbar__link" href="#">
+                <img class="navbar__link-img" src="assets/blog-icon.svg"/> 
+                <p>Blog</p>
+            </a>
+            <a class="navbar__link" href="#">
+                <img class="navbar__link-img" src="assets/a-list-icon.svg"/> 
+                <p>The A-List</p>
+            </a>
+            <a class="navbar__link" href="#">
+                <img class="navbar__link-img" src="assets/camera-icon.svg"/> 
+                <p>Contribute</p>
+            </a>
+            <a class="navbar__link" href="#">
+                <img class="navbar__link-img" src="assets/about-icon.svg"/> 
+                <p>About</p>
+            </a>
+            <p class="navbar__header">latest tweet</p>
+            <button class="navbar__button button">
+                <img class="button__icon" src="assets/twitter-icon.svg" />
+                <p class="button__text">Join The Conversation</p>
+            </button>
+            <h1 class="navbar__header">let's be friends!</h1>
+            <i class="navbar__text">For weekly finds, community recommentations, and more, like us on Facebook.</i>
+            <button class="navbar__button button">
+                <img class="button__icon" src="assets/twitter-icon.svg" />
+                <p class="button__text">Join The Community</p>
+            </button>
+        </nav>
+        <main class="main">
+            <div class="main__banner banner"></div>
+            <nav class="main-nav">
+                <a class="main-nav__link" href="#">
+                    <h2 class="main-nav__header">Tastemakers</h2>
+                    <p class="main-nav__description">Feast your eyes & get reciepes!</p>
+                </a>
+                <a class="main-nav__link" href="#">
+                    <h2 class="main-nav__header">Blog</h2>
+                    <p class="main-nav__description">News, how-tos, stories, and more</p>
+                </a>
+                <a class="main-nav__link" href="#">
+                    <h2 class="main-nav__header">The A-List</h2>
+                    <p class="main-nav__description">Handpicked, absolute favorites</p>
+                </a>
+                <a class="main-nav__link" href="#">
+                    <h2 class="main-nav__header">Contribute</h2>
+                    <p class="main-nav__description">We want to hear from you!</p>
+                </a>
+            </nav>
+            <article class="main__subscribe subscribe">
+                <img class="subscribe__icon" src="assets/mail-icon.svg" />
+                <p class="subscribe__text">Sign up for out newsletter to receive a handpicked selection of the best stories, recipes, and news, delivered weekly to your inbox.</p>
+                <input class="subscribe__email" type="email" placeholder="Email" name="email" required="">
+                <button class="subscribe__button">Subscribe</button>
+            </article>
+            <article class="posts">
+                <div class="posts__item">
+                    <img class="posts__img" src="assets/image.png" />
+                    <h1 class="posts__header">2012’s Best Summer Cookbooks</h1>
+                    <p class="posts__description">With the best of the season coming from “orchards, farms and gardens,” NPR has put together an impressive collection of 10 summer cookbooks.</p>
+                    <div class="posts__footer">
+                        <p class="posts__date">May 23, 2012 /</p>
+                        <a class="posts__link" href="#">Read...</a>
+                    </div>
+                </div>
+                <div class="posts__item">
+                    <img class="posts__img" src="assets/image (1).png" />
+                    <h1 class="posts__header">How to Make Vegetable Chips</h1>
+                    <p class="posts__description">About a month ago, I ate almost an entire box of kale chips. My brother and I were visiting our cousin in Brooklyn, and before a very thoughtfully prepared vagan...</p>
+                    <div class="posts__footer">
+                        <p class="posts__date">May 17, 2012 /</p>
+                        <a class="posts__link" href="#">Read...</a>
+                    </div>
+                </div>
+                <div class="posts__item">
+                    <img class="posts__img" src="assets/image (2).png" />
+                    <h1 class="posts__header">Join us on Pinterest!</h1>
+                    <p class="posts__description">If I could curate a cookbook for you, this would be it.</p>
+                    <div class="posts__footer">
+                        <p class="posts__date">May 23, 2012 /</p>
+                        <a class="posts__link" href="#">Read...</a>
+                    </div>
+                </div>
+                <div class="posts__item">
+                    <img class="posts__img" src="assets/image (3).png" />
+                    <h1 class="posts__header">Recipes from a Sunday Supper</h1>
+                    <p class="posts__description">I could not figure out what to do with the delectable slices of Pear Cake that I brought home from this wonderful Sunday supper - eat them slowly, a little bit at...</p>
+                    <div class="posts__footer">
+                        <p class="posts__date">May 23, 2012 /</p>
+                        <a class="posts__link" href="#">Read...</a>
+                    </div>
+                </div>
+            </article>
+        </main>
+    </section>
+    <footer class="footer">
+        <div class="footer__left">
+            <nav class="footer__links">
+                <a class="footer__link" href="#">
+                    Privacy Policy 
+                </a>
+                |
+                <a class="footer__link" href="#">
+                    Terms of Use
+                </a>
+                |
+                <a class="footer__link" href="#">
+                    Contact
+                </a>
+            </nav>
+            <p class="footer__rights">
+                © 2016 Food Sense, all rights reserved.
+            </p>
+        </div>
+        <div class="footer__social social">
+            <a class="social__link"><img class="social__img" src="assets/twitter-icon 2.svg" /></a>
+            <a class="social__link"><img class="social__img" src="assets/fb-icon.svg" /></a>
+            <a class="social__link"><img class="social__img" src="assets/rss-icon.svg" /></a>
+        </div>
+    </footer>
+</body>
+</html>
