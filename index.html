@@ -12,10 +12,10 @@
 <body>
     <section class="wrapper">
         <aside class="aside">
-        <a class="icon" href="#">
-                <img class="icon__img" src="assets/icon-logo.svg" />
+        <a class="logo" href="#">
+                <img class="logo__img" src="assets/icon-logo.svg" />
         </a>
-        <nav class="navbar">
+        <nav class="navbar aside__navbar">
             <a class="navbar__link" href="#">
                 <span class="navbar__link-img navbar__link-img--food"></span> 
                 <span>Tastemakers</span>
@@ -74,8 +74,10 @@
                 </a>
             </nav>
             <article class="main__subscribe subscribe">
-                <img class="subscribe__icon" src="assets/mail-icon.svg" />
-                <p class="subscribe__text">Sign up for out newsletter to receive a handpicked selection of the best stories, recipes, and news, delivered weekly to your inbox.</p>
+                <div class="subscribe__wrapper">
+                    <img class="subscribe__icon" src="assets/mail-icon.svg" />
+                    <p class="subscribe__text">Sign up for out newsletter to receive a handpicked selection of the best stories, recipes, and news, delivered weekly to your inbox.</p>
+                </div>
                 <form class="form">
                     <input class="form__input" type="email" placeholder="Email" name="email" required="">
                     <button class="form__button">Subscribe</button>
@@ -147,9 +149,9 @@
             </p>
         </div>
         <div class="footer__social social">
-            <a href="#" class="social__link social__link--twitter"></a>
-            <a href="#" class="social__link social__link--fb"></a>
-            <a href="#" class="social__link social__link--rss"></a>
+            <a href="#" class="social__link link link--twitter"></a>
+            <a href="#" class="social__link link link--fb"></a>
+            <a href="#" class="social__link link link--rss"></a>
         </div>
     </footer>
 </body>

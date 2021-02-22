@@ -1,0 +1,40 @@
+.news__header {
+    margin: 6px 0 8px 0;
+    padding-bottom: 5px;
+    border-bottom: 1px dashed #E5E5E5;
+    font-family: Verdana;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 12px;
+    text-transform: uppercase;
+    color: #000000;
+}
+.news__button {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 30px;
+    padding: px 7px;
+    background: #FFFFFF;
+    border: 1px solid #E5E5E5;
+    box-sizing: border-box;
+    border-radius: 5px;
+    font-size: 10px;
+    line-height: 12px;
+    color: #34ACA7;
+}
+
+.news__text {
+    font-style: italic;
+    font-size: 10px;
+    line-height: 19px;
+    color: #000000;
+    margin-bottom: 15px;
+}
+
+@media (max-width: 992px) {
+    .news {
+        display: none;
+    }
+}

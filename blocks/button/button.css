@@ -1,0 +1,13 @@
+.button {
+    cursor: pointer;
+}
+.button__icon {
+    width: 16px;
+    height: 16px;
+}
+.button__text {
+    margin: 0;
+    white-space: pre;
+    padding-left: 6px;
+    font-style: italic;
+}

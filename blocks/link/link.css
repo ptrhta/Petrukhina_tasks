@@ -1,0 +1,13 @@
+.link {
+    display: inline-block;
+    cursor: pointer;
+}
+.link--twitter {
+    background: url('../../assets/twitter-icon2.svg') no-repeat;
+}
+.link--fb {
+    background: url('../../assets/fb-icon.svg') no-repeat;
+}
+.link--rss {
+    background: url('../../assets/rss-icon.svg') no-repeat;
+}
