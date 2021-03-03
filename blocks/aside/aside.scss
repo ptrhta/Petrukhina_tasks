@@ -1,0 +1,32 @@
+.aside {
+    display: flex;
+    flex-direction: column;
+    width: 140px;
+    margin-right: 44px;
+}
+@media (max-width: 1176px) and (min-width: 992px) {
+    .aside__navbar {
+        margin-top: 12px;
+    }
+}
+@media (max-width: 992px) {
+    .aside {
+        flex-direction: row;
+        width: 100%;
+        max-width: 710px;
+        margin: 0;
+        justify-content: space-between;
+        margin-bottom: 51px;
+    }
+}
+@media (max-width: 768px) {
+    .aside {
+        max-width: 561px;
+        margin-bottom: 41px;
+    }
+}
+@media (max-width: 480px) {
+    .aside {
+        flex-direction: column;
+    }
+}
